@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/hz_le/Desktop/CS/ComputerSys-I/Labs/Lab1/VivadoProject/Lab1-1/Lab1-1.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+D:/sysI/sys1-sp25/src/lab1-1/sim/testbench.v,1741509555,verilog,,,,Testbench,,,,,,,,
+D:/sysI/sys1-sp25/src/lab1-1/submit/AND_GATE.v,1741241991,verilog,,D:/sysI/sys1-sp25/src/lab1-1/submit/Mux4T1_1.v,,AND_GATE,,,,,,,,
+D:/sysI/sys1-sp25/src/lab1-1/submit/Mux4T1_1.v,1741242058,verilog,,D:/sysI/sys1-sp25/src/lab1-1/submit/Mux8T1_1.v,,Mux4T1_1,,,,,,,,
+D:/sysI/sys1-sp25/src/lab1-1/submit/Mux8T1_1.v,1741853013,verilog,,D:/sysI/sys1-sp25/src/lab1-1/submit/OR_GATE_4_INPUTS.v,,Mux2T1_1;Mux8T1_1,,,,,,,,
+D:/sysI/sys1-sp25/src/lab1-1/submit/OR_GATE_4_INPUTS.v,1741241989,verilog,,D:/sysI/sys1-sp25/src/lab1-1/sim/testbench.v,,OR_GATE_4_INPUTS,,,,,,,,
+D:/sysI/sys1-sp25/src/lab1-1/syn/top.v,1741515660,verilog,,,,top,,,,,,,,

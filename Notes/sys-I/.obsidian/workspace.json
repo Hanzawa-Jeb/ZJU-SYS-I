@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "4d3bf74df04c04f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0b21b8c7bd9974b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cc9cf9ca1e0114d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lec2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec2"
+            }
+          },
+          {
+            "id": "e0ae0f0e975b1861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HW-1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HW-1"
+            }
+          },
+          {
+            "id": "ea223bb2f2f31005",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lec4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec4"
+            }
+          },
+          {
+            "id": "70912235a6d0f67f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lec4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec4"
+            }
+          },
+          {
+            "id": "5bcfe080d2b5efd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lab1-2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab1-2"
+            }
+          },
+          {
+            "id": "88686e09c3c7d526",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lab2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab2"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a079e8febe73a101",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e841a004643def8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02068612ec64def5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ad8560204325d13b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "637de66770a2453e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cbc852db0af28730",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad336cfb6148ab0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7189dbc655d2169c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sys lec1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "sys lec1 的反向链接列表"
+            }
+          },
+          {
+            "id": "bded2798c9b8b9d2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "sys lec1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "sys lec1 的出链列表"
+            }
+          },
+          {
+            "id": "d372cd5c35356bac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "bfeaeabc74721eb4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "sys lec1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "sys lec1 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "88686e09c3c7d526",
+  "lastOpenFiles": [
+    "lab1-2.md",
+    "lab2.md",
+    "lec5.md",
+    "lab0-2.md",
+    "lab0-1.md",
+    "img1.png",
+    "2025-03-17.md",
+    "未命名.canvas",
+    "lec4.md",
+    "lab0-3.md",
+    "lab1-1.md",
+    "lec3.md",
+    "lec2.md",
+    "lec1.md",
+    "lec0.md",
+    "hw-1.md",
+    "Verilog Tutorial.md",
+    "欢迎.md"
+  ]
+}

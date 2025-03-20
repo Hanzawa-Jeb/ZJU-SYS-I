@@ -1,0 +1,4 @@
+- add unsigned的时候会产生一个carry传递给下次，还会余下一个对$2^\omega$取模得到的结果。
+- 补码相加与Unsigned Add的bitwise operation是一模一样的。需要drop off MSB
+- Binary Multiplication与普通的乘法是一样的，也是写成竖式然后错位相加，进位就进，仅此而已
+- 除法也是同理

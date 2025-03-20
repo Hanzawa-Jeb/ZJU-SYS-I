@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"D:/sysI/sys1-sp25/src/lab1-1/submit/AND_GATE.v" \
+"D:/sysI/sys1-sp25/src/lab1-1/submit/Mux4T1_1.v" \
+"D:/sysI/sys1-sp25/src/lab1-1/submit/Mux8T1_1.v" \
+"D:/sysI/sys1-sp25/src/lab1-1/submit/OR_GATE_4_INPUTS.v" \
+"D:/sysI/sys1-sp25/src/lab1-1/sim/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

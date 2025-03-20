@@ -1,0 +1,3 @@
+- Textbook: LCDF fifth edition
+- Kernal是内核，是操作系统的心脏，基于CPU负责管理硬件资源并为应用程序提供服务。
+- No Group, Work alone.
