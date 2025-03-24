@@ -83,16 +83,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lab2.md",
+                "file": "lec5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lab2"
+              "title": "lec5"
+            }
+          },
+          {
+            "id": "22ff60ff642b96f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lec6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lec6"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -239,11 +253,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "88686e09c3c7d526",
+  "active": "22ff60ff642b96f0",
   "lastOpenFiles": [
-    "lab1-2.md",
-    "lab2.md",
+    "img4.png",
+    "lec6.md",
+    "img3.png",
     "lec5.md",
+    "lec0.md",
+    "img2.png",
+    "lab2.md",
+    "lab1-2.md",
     "lab0-2.md",
     "lab0-1.md",
     "img1.png",
@@ -255,7 +274,6 @@
     "lec3.md",
     "lec2.md",
     "lec1.md",
-    "lec0.md",
     "hw-1.md",
     "Verilog Tutorial.md",
     "欢迎.md"

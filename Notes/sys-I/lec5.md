@@ -78,13 +78,13 @@
 - 两个反相器连在一起，属于latch电路，可以保持稳态可以同时输出$\bar{Q}与Q$
 - 不能有输入信号
 #### RS-Latch
-- 使用或非门，1为触发信号
+- 使用**或非门**，1为触发信号
 - Reset信号与Set信号
 - RS触发器，R = 0, S = 0则保持前一个状态，即$Q = Q_{prev}$ 
 - R = 1则$Q = 0, \; \bar{Q} = 1$
 - S = 1则$Q = 1,\; \bar{Q} = 0$
 - S = 1, R = 1则两路输出均为0（$Invalid \; State$）
-- 也有$\bar{R}\bar{S}-Latch$, 0为触发信号，使用与非门进行触发
+- 也有$\bar{R}\bar{S}-Latch$, 0为触发信号，使用**与非门**进行触发
 - 状态变化的时候才会耗费能源
 - Level-Triggered
 #### RS Latch with Control Input
@@ -93,9 +93,24 @@
 - C = 1的时候始终接受新的信号，C = 0的时候保持上一个状态
 ### D-Latch
 - Data分拆为两路，一路取反，就变成了RS触发器中的两路输入
+- D = 1 Set, D=0->Reset
+### Latch-Timing problem
+- CLK信号作为C信号，$\bar{(Q)}$ 接回D，这样会造成在一个CLK周期内电平多次跳变。
 #### Pulse-Triggered flip-flop
-- 主从触发器
+- 与普通的DCQ相比，是需要出现一次额**完整的脉冲**才能实现输入到输出的回路
+- 主从触发器，高电平**触发第一个**，低电平**触发第二个** 
 - 前后的C信号相反
 - C = 1的时候主触发器受控制，C = 0的时候从触发器受控制
 - 使用脉冲信号控制了输出的结果
-- ![](ppt-page25.png)
+- 如果输入D信号有glitch而恰好此时Master D-Latch处于有效状态，那glitch会被捕捉
+- RS为**invalid state的时候可能会导致意外的结果**
+### Edge-triggering D Flip-Flop
+- 不采用独立的R,S信号而采用合并的D信号（$D \; and \; \bar  {D}$）
+![](img2.png)
+- 保证SR的合法性
+- 有**上升沿**与**下降沿**触发，C信号取反即可
+- 在edge signal满足的时候进行触发，Slave的Q信号就是D信号
+- D信号中的glitch不会影响信号的触发，因为只有edge处才会进行触发
+- Level-Triggered D Latch（传统D-Latch， 高电平触发）的CLK信号不用标小三角形，而Edge-Triggered D Latch的CLK信号要标小三角形。
+- Latch锁存器（一个触发器） Flip-Flop寄存器（两个触发器）
+- 
